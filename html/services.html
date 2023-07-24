@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Lepo | page Services</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+   <link href="../css/resizable.css" rel="stylesheet">
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/css-stili/services.css">
+   <link rel="stylesheet" href="../css/css-stili/themes-colors.css">
+   <link rel="stylesheet" href="../css/css-stili/darkTheme.css">
+   <link rel="icon" type="image/png" sizes="180x180"
+      href="https://public-assets.envato-static.com/icons/themeforest.net/apple-touch-icon-precomposed.png">
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="custom-mouse">
+         <div class="custom-mouse__small"></div>
+         <div class="custom-mouse__big"></div>
+      </div>
+      <div class="preloader">
+         <span></span>
+      </div>
+      <!-- settings -->
+      <div class="settings">
+         <div class="settings__content">
+            <div class="settings__body settings-body">
+               <div class="settings-body__item">
+                  <div class="settings-body__name">Navigation</div>
+                  <div class="settings-body__buttons">
+                     <a class="settings-body__button _active" id="settings-body__button-sitebar">Sidebar</a>
+                     <a class="settings-body__button" id="settings-body__button-header">Header</a>
+                  </div>
+               </div>
+               <div class="settings-body__item">
+                  <div class="settings-body__name">Decoration</div>
+                  <div class="settings-body__checkbox">
+                     <div class="settings-body__checkbox-name">Garland</div>
+                     <div class="settings-body__checkbox-input _active" id="girliands-none"></div>
+                  </div>
+                  <div class="settings-body__checkbox">
+                     <div class="settings-body__checkbox-name">Preloader</div>
+                     <div class="settings-body__checkbox-input _active" id="preloader-none"></div>
+                  </div>
+                  <div class="settings-body__checkbox">
+                     <div class="settings-body__checkbox-name">White Theme</div>
+                     <div class="settings-body__checkbox-input _active sitebar__moon settings-body__dark-mode"></div>
+                  </div>
+               </div>
+               <div class="settings-body__item">
+                  <div class="settings-body__name">Colors</div>
+                  <div class="settings-body__colors">
+                     <div class="settings-body__color _active" data-theme-color="standart"
+                        style="background-color: #E8EBF6"></div>
+                     <div class="settings-body__color" data-theme-color="orange"
+                        style="background-color: rgb(238, 183, 120);"></div>
+                     <div class="settings-body__color" data-theme-color="white" style="background-color: white"></div>
+                     <div class="settings-body__color" data-theme-color="gray"
+                        style="background-color: rgb(185, 185, 185)"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <aside class="sitebar">
+         <div class="sitebar__body">
+            <div class="sitebar__moon">
+
+            </div>
+            <div class="sitebar__content sitebar-content">
+               <div class="sitebar-content__person">
+                  <div class="sitebar-content__image-person"><img src="../img/sitebar/person.png" alt="person.png">
+                  </div>
+                  <h2 class="sitebar-content__name-person">The <div></div>
+                  </h2>
+                  <div class="sitebar-content__describe-person">This layout is perfect for a single man or company
+                     portfolio</div>
+               </div>
+               <div class="sitebar-content__menu">
+                  <nav class='sitebar-content__menu-list'>
+                     <ul class='sitebar-content__menu-item'>
+                        <div class='sitebar-content__menu-link sitebar-content__menu-sublink _active'>
+                           <span>Home</span>
+                           <div class="sitebar-content__submenu _hidden">
+                              <a href="home.html" class="sitebar-content__submenu-item">Home</a>
+                              <a href="subfiles/home-2.html" class="sitebar-content__submenu-item">Home2</a>
+                              <a href="subfiles/home-video.html" class="sitebar-content__submenu-item">Home Video</a>
+                              <a href="subfiles/home-slider.html" class="sitebar-content__submenu-item">Home Slider</a>
+                           </div>
+                        </div>
+                        <div class='sitebar-content__menu-link sitebar-content__menu-sublink _active'>
+                           <span>About</span>
+                           <div class="sitebar-content__submenu _hidden">
+                              <a class="sitebar-content__submenu-item">About</a>
+                              <a href="subfiles/about-minimal.html" class="sitebar-content__submenu-item">About
+                                 Minimal</a>
+                              <a href="subfiles/about-comand.html" class="sitebar-content__submenu-item">About
+                                 Comand</a>
+                           </div>
+                        </div>
+                        <div class='sitebar-content__menu-link'>
+                           <div class='sitebar-content__menu-link sitebar-content__menu-sublink _active'>
+                              <span class="_active">Services</span>
+                              <div class="sitebar-content__submenu _hidden">
+                                 <a href="services.html" class="sitebar-content__submenu-item _active">Services</a>
+                                 <a href="subfiles/services2.html" class="sitebar-content__submenu-item">Services 2</a>
+                              </div>
+                           </div>
+                        </div>
+                        <div class='sitebar-content__menu-link'><a href="portfolio.html">Portfolio</a></div>
+                        <div class='sitebar-content__menu-link'><a href="blog.html">Blog</a></div>
+                        <div class='sitebar-content__menu-link'><a href="contacts.html">Contacts</a></div>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="sitebar-content__footer">
+                  <div class="sitebar-content__footer-links">
+                     <a href="" class="sitebar-content__footer-link"><img src="../img/sitebar/facebook.svg"
+                           alt="facebook.svg">
+                     </a>
+                     <a href="" class="sitebar-content__footer-link"><img src="../img/sitebar/instagram.svg"
+                           alt="instagram.svg">
+                     </a>
+                     <a href="" class="sitebar-content__footer-link"><img src="../img/sitebar/viber.svg"
+                           alt="viber.svg">
+                     </a>
+                  </div>
+                  <div class="sitebar-content__footer-copyright">
+                     <p>Copyright 2023 Pavlo Sologubov. All rights reservet</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </aside>
+      <header class="header">
+         <div class="header__conteiner">
+            <a class="header__logo">
+               <img src="../img/sitebar/logo.png" alt="../img/sitebar/logo.png">
+            </a>
+            <div class="header__menu header-menu" data-da='.burger,720'>
+               <div class="header-menu__item">
+                  <li class='sitebar-content__menu-link _active'><a href="home.html">Home</a></li>
+               </div>
+               <div class="header-menu__item">
+                  <li class='sitebar-content__menu-link'><a href="about.html">About</a></li>
+               </div>
+               <div class="header-menu__item">
+                  <li class='sitebar-content__menu-link _active'><a href="services.html">Services</a></li>
+               </div>
+               <div class="header-menu__item">
+                  <li class='sitebar-content__menu-link'><a href="portfolio.html">Portfolio</a></li>
+               </div>
+               <div class="header-menu__item">
+                  <li class='sitebar-content__menu-link'><a href="blog.html">Blog</a></li>
+               </div>
+               <div class="header-menu__item">
+                  <li class='sitebar-content__menu-link'><a href="contacts.html">Contacts</a></li>
+               </div>
+            </div>
+            <div class="header-icons">
+               <a class="header-icons__icon"><img src="../img/sitebar/facebook.svg"
+                     alt="../img/sitebar/facebook.svg"></a>
+               <a class="header-icons__icon"><img src="../img/sitebar/instagram.svg"
+                     alt="../img/sitebar/instagram.svg"></a>
+               <a class="header-icons__icon"><img src="../img/sitebar/viber.svg" alt="../img/sitebar/viber.svg"></a>
+            </div>
+            <div class="header__burger-icon"
+               onclick="document.querySelector('.burger').classList.add('_active'); this.classList.add('_active'); document.body.classList.add('_hidden')">
+            </div>
+         </div>
+      </header>
+      <div class="burger"></div>
+      <main class="main">
+         <div class="settings__icon">
+            <div data-cursorActive><img src="../img/content/other/gear-black.svg"
+                  alt="../img/content/other/gear-black.svg"></div>
+         </div>
+         <div class="main__home main-home">
+            <div class="main-home__giriliands giriliands">
+               <div class="giriliands__girliand">
+                  <img src="../img/content/girliands/01.png" alt="../img/content/girliands/01.png">
+                  <div class="giriliands__bals">
+                     <div class="giriliands__bal" id="bal-1"><img src="../img/content/girliands/ball.png"
+                           alt="../img/content/girliands/ball.png"></div>
+                     <div class="giriliands__bal" id="bal-2"><img src="../img/content/girliands/ball.png"
+                           alt="../img/content/girliands/ball.png"></div>
+                     <div class="giriliands__bal" id="bal-3"><img src="../img/content/girliands/ball.png"
+                           alt="../img/content/girliands/ball.png"></div>
+                  </div>
+               </div>
+               <div class="giriliands__girliand">
+                  <img src="../img/content/girliands/02.png" alt="../img/content/girliands/02.png">
+                  <div class="giriliands__bals">
+                     <div class="giriliands__bal" id="bal-4"><img src="../img/content/girliands/ball.png"
+                           alt="../img/content/girliands/ball.png"></div>
+                     <div class="giriliands__bal" id="bal-5"><img src="../img/content/girliands/ball.png"
+                           alt="../img/content/girliands/ball.png"></div>
+                  </div>
+               </div>
+               <div class="giriliands__girliand">
+                  <img src="../img/content/girliands/03.png" alt="../img/content/girliands/03.png">
+                  <div class="giriliands__bals">
+                     <div class="giriliands__bal" id="bal-6"><img src="../img/content/girliands/light-ball.png"
+                           alt="../img/content/girliands/light-ball.png"></div>
+                     <div class="giriliands__bal" id="bal-7"><img src="../img/content/girliands/light-ball.png"
+                           alt="../img/content/girliands/light-ball.png"></div>
+                     <div class="giriliands__bal" id="bal-8"><img src="../img/content/girliands/light-ball.png"
+                           alt="../img/content/girliands/light-ball.png"></div>
+                  </div>
+               </div>
+            </div>
+            <div class="main-home__content services">
+               <div class="services__text">
+                  <h4 class="services__title">My Services</h4>
+                  <div class="services__describe">
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sit possimus necessitatibus nemo
+                     </p>
+                  </div>
+               </div>
+               <div class="services__items">
+                  <div class="services__item services-item parent-item" data-cursorActive="true">
+                     <img src="../img/content/services/01.jpg" alt="../img/content/services/01.jpg">
+                     <div class="services-item__name">Web Design</div>
+                     <div class="services-item__describe">Web design is the process of building, programming...</div>
+                  </div>
+                  <div class="services__item services-item parent-item" data-cursorActive="true">
+                     <img src="../img/content/services/02.jpg" alt="../img/content/services/02.jpg">
+                     <div class="services-item__name">User Research</div>
+                     <div class="services-item__describe">Web design is the process of building, programming...</div>
+                  </div>
+                  <div class="services__item services-item parent-item" data-cursorActive="true">
+                     <img src="../img/content/services/03.jpg" alt="../img/content/services/03.jpg">
+                     <div class="services-item__name">Animation</div>
+                     <div class="services-item__describe">Web design is the process of building, programming...</div>
+                  </div>
+                  <div class="services__item services-item parent-item" data-cursorActive="true">
+                     <img src="../img/content/services/04.jpg" alt="../img/content/services/04.jpg">
+                     <div class="services-item__name">Game Developer</div>
+                     <div class="services-item__describe">Web design is the process of building, programming...</div>
+                  </div>
+                  <div class="services__item services-item parent-item" data-cursorActive="true">
+                     <img src="../img/content/services/05.jpg" alt="../img/content/services/05.jpg">
+                     <div class="services-item__name">Mobile Application</div>
+                     <div class="services-item__describe">Web design is the process of building, programming...</div>
+                  </div>
+                  <div class="services__item services-item parent-item" data-cursorActive="true">
+                     <img src="../img/content/services/06.jpg" alt="../img/content/services/06.jpg">
+                     <div class="services-item__name">Freelancer</div>
+                     <div class="services-item__describe">Web design is the process of building, programming...</div>
+                  </div>
+                  <div class="services__item services-item parent-item" data-cursorActive="true">
+                     <img src="../img/content/services/07.jpg" alt="../img/content/services/07.jpg">
+                     <div class="services-item__name">UI | UX desiner</div>
+                     <div class="services-item__describe">Web design is the process of building, programming...</div>
+                  </div>
+                  <div class="services__item services-item parent-item" data-cursorActive="true">
+                     <img src="../img/content/services/08.jpg" alt="../img/content/services/08.jpg">
+                     <div class="services-item__name">HTML Codder</div>
+                     <div class="services-item__describe">Web design is the process of building, programming...</div>
+                  </div>
+               </div>
+               <div class="services__descripion describe">
+                  <p>
+                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nostrum delectus vero quo sit. Rem
+                     dolores doloribus, sint a veritatis ea! Maiores, nemo possimus inventore magni sunt animi a commodi
+                     eveniet aliquam atque eos aperiam molestias cupiditate perferendis amet perspiciatis placeat, at
+                     sapiente ipsum laudantium tenetur. Sapiente maiores animi quas laudantium fugiat pariatur provident
+                     quis nobis corrupti quasi. Ducimus molestiae, mollitia corporis esse optio dolorem dolore
+                     recusandae fugit eos dolorum? Nostrum illo ex quaerat aspernatur nobis quod, blanditiis eaque!
+                     Omnis, ducimus tenetur. Quia iure earum voluptatibus. Ipsum delectus id libero, neque pariatur
+                     laboriosam eligendi est. Atque totam similique fuga quia.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </main>
+      <div class="about__specialisation-cards">
+         <div class="about__specialisation-card specialisation-card">
+            <div class="specialisation-card__content">
+               <div class="specialisation-card__image"><img src="../img/content/services/01.jpg"
+                     alt="../img/content/about/post-1.jpg"></div>
+               <div class="specialisation-card__title-university">
+                  <div class="specialisation-card__title">Web Design</div>
+               </div>
+               <div class="specialisation-card__description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+               </div>
+            </div>
+         </div>
+         <div class="about__specialisation-card specialisation-card">
+            <div class="specialisation-card__content">
+               <div class="specialisation-card__image"><img src="../img/content/services/02.jpg"
+                     alt="../img/content/about/post-1.jpg"></div>
+               <div class="specialisation-card__title-university">
+                  <div class="specialisation-card__title">User Research</div>
+               </div>
+               <div class="specialisation-card__description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+               </div>
+            </div>
+         </div>
+         <div class="about__specialisation-card specialisation-card">
+            <div class="specialisation-card__content">
+               <div class="specialisation-card__image"><img src="../img/content/services/03.jpg"
+                     alt="../img/content/about/post-1.jpg"></div>
+               <div class="specialisation-card__title-university">
+                  <div class="specialisation-card__title">Animation</div>
+               </div>
+               <div class="specialisation-card__description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+               </div>
+            </div>
+         </div>
+         <div class="about__specialisation-card specialisation-card">
+            <div class="specialisation-card__content">
+               <div class="specialisation-card__image"><img src="../img/content/services/04.jpg"
+                     alt="../img/content/about/post-1.jpg"></div>
+
+               <div class="specialisation-card__title-university">
+                  <div class="specialisation-card__title">Game Developer</div>
+
+               </div>
+               <div class="specialisation-card__description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+               </div>
+            </div>
+         </div>
+         <div class="about__specialisation-card specialisation-card">
+            <div class="specialisation-card__content">
+               <div class="specialisation-card__image"><img src="../img/content/services/05.jpg"
+                     alt="../img/content/about/post-1.jpg"></div>
+
+               <div class="specialisation-card__title-university">
+                  <div class="specialisation-card__title">Mobile Application</div>
+
+               </div>
+               <div class="specialisation-card__description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+               </div>
+            </div>
+         </div>
+         <div class="about__specialisation-card specialisation-card">
+            <div class="specialisation-card__content">
+               <div class="specialisation-card__image"><img src="../img/content/services/06.jpg"
+                     alt="../img/content/about/post-1.jpg"></div>
+
+               <div class="specialisation-card__title-university">
+                  <div class="specialisation-card__title">Frelancer</div>
+
+               </div>
+               <div class="specialisation-card__description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+               </div>
+            </div>
+         </div>
+         <div class="about__specialisation-card specialisation-card">
+            <div class="specialisation-card__content">
+               <div class="specialisation-card__image"><img src="../img/content/services/07.jpg"
+                     alt="../img/content/about/post-1.jpg"></div>
+
+               <div class="specialisation-card__title-university">
+                  <div class="specialisation-card__title">UI | UX designer</div>
+
+               </div>
+               <div class="specialisation-card__description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+               </div>
+            </div>
+         </div>
+         <div class="about__specialisation-card specialisation-card">
+            <div class="specialisation-card__content">
+               <div class="specialisation-card__image"><img src="../img/content/services/08.jpg"
+                     alt="../img/content/about/post-1.jpg"></div>
+
+               <div class="specialisation-card__title-university">
+                  <div class="specialisation-card__title">HTML Codder</div>
+
+               </div>
+               <div class="specialisation-card__description">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque?</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni quam blanditiis praesentium
+                     similique repellat repellendus amet recusandae minima reiciendis expedita animi dolorem illo, hic
+                     rerum
+                     ab. Esse, similique atque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+                     deleniti
+                     natus delectus sit excepturi et ipsam accusantium quibusdam consequuntur iusto eius pariatur vero
+                     ad,
+                     cum
+                     error sequi officia? Ipsum, quasi!</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/jquery-resizable@1.0.6/resizable.min.js"></script>
+   <script src="../js/and-JS/script.js"></script>
+   <script src="../js/and-JS/resisable-for-sitebar.js"></script>
+   <script src="../js/and-JS/data-parent.js"></script>
+   <script src="../js/and-JS/dynamic-adapt.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,605 @@
+/* % TO */
+/* % REM */
+/* % EM */
+body._header .main {
+  margin-top: 2.375rem;
+}
+
+.about-comand {
+  /* .about-comand__content */
+  /* .about-comand__first-block */
+}
+.about-comand__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.about-comand__first-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: clamp( 0.625rem , 0.5rem  +  0.625vw , 1.25rem );
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.comand-first {
+  /* .comand-first__title */
+  /* .comand-first__describe */
+  /* .comand-first__button */
+}
+.comand-first__title {
+  font-size: clamp( 1.375rem , 1.025rem  +  1.75vw , 3.125rem );
+  color: white;
+  font-family: "Tsukimi Rounded";
+  text-align: center;
+}
+.comand-first__title:not(:last-child) {
+  margin-bottom: clamp( 0.9375rem , 0.75rem  +  0.9375vw , 1.875rem );
+}
+.comand-first__describe {
+  text-align: center;
+  font-weight: 300;
+  color: white;
+  font-size: clamp( 1.0625rem , 1.0125rem  +  0.25vw , 1.3125rem );
+  max-width: 50rem;
+}
+.comand-first__describe:not(:last-child) {
+  margin-bottom: clamp( 1.875rem , 1.625rem  +  1.25vw , 3.125rem );
+}
+.comand-first__button a {
+  font-family: "Tsukimi Rounded";
+  font-size: clamp( 1.0625rem , 1.0125rem  +  0.25vw , 1.3125rem );
+  background-color: white;
+  width: clamp( 10.625rem , 9.875rem  +  3.75vw , 14.375rem );
+  height: clamp( 2.8125rem , 2.5rem  +  1.5625vw , 4.375rem );
+  border-radius: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 0.125rem solid rgba(0, 0, 0, 0.4);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .comand-first__button:hover a {
+    background-color: inherit;
+    border-color: white;
+    color: white;
+  }
+}
+
+.comand-who {
+  padding: clamp( 1.25rem , 1.125rem  +  0.625vw , 1.875rem );
+  color: black;
+  background-color: #f5f5f5;
+  /* .comand-who__title */
+  /* .comand-who__describe */
+}
+.comand-who__title {
+  font-family: "Tsukimi Rounded";
+  font-weight: 300;
+  font-size: clamp( 1.5625rem , 1.375rem  +  0.9375vw , 2.5rem );
+}
+.comand-who__title:not(:last-child) {
+  margin-bottom: clamp( 0.625rem , 0.5625rem  +  0.3125vw , 0.9375rem );
+}
+.comand-who__describe {
+  color: #595959;
+  font-size: clamp( 1.0625rem , 1.05rem  +  0.0625vw , 1.125rem );
+  font-weight: 300;
+  margin-bottom: 0.9375rem;
+}
+
+.comand-slider {
+  background-color: white;
+  /* .comand-slider__content */
+  /* .comand-slider__slider-first-container */
+  /* .comand-slider__slider-first */
+  /* .comand-slider__swipper */
+  /* .comand-slider__slide */
+  /* .comand-slider__slider-second-container */
+  /* .comand-slider__slider-second */
+  /* .comand-slider__navigation */
+}
+.comand-slider__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+@media (max-width: 41.875rem) {
+  .comand-slider__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .comand-slider__content .comand-slider__slider-second-container,
+  .comand-slider__content .comand-slider__slider-first-container {
+    width: 100%;
+  }
+}
+.comand-slider__slider-first-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  width: 50%;
+}
+.comand-slider__slider-first {
+  height: 100%;
+}
+.comand-slider__swipper {
+  height: 100%;
+}
+.comand-slider__slide {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.comand-slider__slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.comand-slider__text {
+  padding: clamp( 0.4375rem , 0.3625rem  +  0.375vw , 0.8125rem );
+}
+.comand-slider__slider-second-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 50%;
+          flex: 1 0 50%;
+  width: 50%;
+}
+.comand-slider__slider-second {
+  height: 100%;
+}
+.comand-slider__navigation {
+  margin-top: clamp( 2.5rem , 2.125rem  +  1.875vw , 4.375rem );
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-left: clamp( 1.25rem , 1rem  +  1.25vw , 2.5rem );
+  padding-right: clamp( 1.25rem , 1rem  +  1.25vw , 2.5rem );
+  gap: clamp( 0.625rem , 0.5625rem  +  0.3125vw , 0.9375rem );
+  padding-bottom: clamp( 1.25rem , 1rem  +  1.25vw , 2.5rem );
+}
+.comand-slider__navigation > div {
+  background-color: white;
+  width: clamp( 2.1875rem , 2.125rem  +  0.3125vw , 2.5rem );
+  height: clamp( 2.1875rem , 2.125rem  +  0.3125vw , 2.5rem );
+  border-radius: 0.3125rem;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.comand-slider__navigation > div::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.5rem;
+  background-image: url("../../../img/content/subfiles/home-slider/arrow.svg");
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .comand-slider__navigation > div:hover {
+    background-color: rgb(31, 31, 31);
+  }
+  .comand-slider__navigation > div:hover::before {
+    -webkit-filter: invert(1);
+            filter: invert(1);
+  }
+}
+.comand-slider__navigation-next::before {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.comand-slider-text {
+  width: 100%;
+  /* .comand-slider-text__title */
+  /* .comand-slider-text__list */
+  /* .comand-slider-text__list-item */
+  /* .comand-slider-text__list-item-info */
+  /* .comand-slider-text__list-item-line */
+}
+.comand-slider-text__title {
+  font-weight: 300;
+  font-size: clamp( 1.875rem , 1.625rem  +  1.25vw , 3.125rem );
+  font-family: "Tsukimi Rounded";
+}
+.comand-slider-text__title:not(:last-child) {
+  margin-bottom: clamp( 1.25rem , 1.125rem  +  0.625vw , 1.875rem );
+}
+.comand-slider-text__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: clamp( 1.25rem , 1.125rem  +  0.625vw , 1.875rem );
+}
+.comand-slider-text__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.comand-slider-text__list-item-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: clamp( 1.0625rem , 1.025rem  +  0.1875vw , 1.25rem );
+  margin-bottom: 0.3125rem;
+}
+.comand-slider-text__list-item-line {
+  width: 100%;
+  background-color: #B3B3B3;
+  height: 3px;
+  border-radius: 3px;
+}
+.comand-slider-text__list-item-line > div {
+  background-color: black;
+  height: 3px;
+  border-radius: 3px;
+}
+
+.comand-missing {
+  background-color: #F7F7F7;
+  padding-bottom: clamp( 1.25rem , 1rem  +  1.25vw , 2.5rem );
+  padding-top: clamp( 1.25rem , 1rem  +  1.25vw , 2.5rem );
+  /* .comand-missing__items */
+  /* .comand-missing__item */
+  /* .comand-missing__describes */
+  /* .comand-missing__describe */
+}
+.comand-missing__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: clamp( 1.875rem , 1.625rem  +  1.25vw , 3.125rem );
+     -moz-column-gap: clamp( 1.875rem , 1.625rem  +  1.25vw , 3.125rem );
+          column-gap: clamp( 1.875rem , 1.625rem  +  1.25vw , 3.125rem );
+  row-gap: 0.625rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.comand-missing__items:not(:last-child) {
+  margin-bottom: clamp( 0.625rem , 0.5rem  +  0.625vw , 1.25rem );
+}
+.comand-missing__item {
+  font-family: "Tsukimi Rounded";
+  font-size: clamp( 1.25rem , 1.175rem  +  0.375vw , 1.625rem );
+  color: #555555;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.comand-missing__item._sub-menu-active {
+  color: black;
+}
+.comand-missing__item._sub-menu-active::after {
+  background-color: black;
+}
+@media (any-hover: hover) {
+  .comand-missing__item:hover {
+    color: black;
+  }
+  .comand-missing__item:hover::after {
+    background-color: black;
+  }
+}
+.comand-missing__item::after {
+  content: "";
+  height: 1px;
+  background-color: #555555;
+  width: 100%;
+  display: block;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.comand-missing__describes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.comand-missing__describe {
+  text-align: center;
+  max-width: 59.375rem;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: translateY(4px);
+          transform: translateY(4px);
+  -webkit-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+  height: 0;
+  overflow: hidden;
+  font-size: #4D4D4D;
+  font-weight: 300;
+  font-size: clamp( 1.125rem , 1.0875rem  +  0.1875vw , 1.3125rem );
+}
+.comand-missing__describe._sub-menu-open {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  height: auto;
+  overflow: visible;
+}
+
+.comand-persons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  /* .comand-persons__names */
+  /* .comand-persons__name */
+  /* .comand-persons__images */
+  /* .comand-persons__image */
+}
+@media (max-width: 45.625rem) {
+  .comand-persons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+.comand-persons__names {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(6.875rem, 1fr))[2];
+  grid-template-columns: repeat(2, minmax(6.875rem, 1fr));
+}
+@media (max-width: 45.625rem) {
+  .comand-persons__names {
+    margin-top: 100vh;
+  }
+}
+.comand-persons__name {
+  background-color: #e6e6e6;
+  border: 1px solid rgba(255, 255, 255, 0.384);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: clamp( 0.625rem , 0.5rem  +  0.625vw , 1.25rem );
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .comand-persons__name:hover {
+    background-color: #f0f0f0;
+  }
+  .comand-persons__name:hover .comand-persons-name__profesy {
+    -webkit-transform: translateY(-0.3125rem);
+            transform: translateY(-0.3125rem);
+  }
+  .comand-persons__name:hover .comand-persons-name__letter {
+    color: black;
+  }
+}
+.comand-persons__images {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  height: 100vh;
+  position: relative;
+}
+.comand-persons__image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.comand-persons__image img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100vh;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  visibility: hidden;
+}
+.comand-persons__image._sub-menuImage-open img {
+  opacity: 1;
+  visibility: visible;
+}
+
+.comand-persons-name {
+  overflow: hidden;
+  /* .comand-persons-name__letter */
+  /* .comand-persons-name__name */
+  /* .comand-persons-name__profesy */
+  /* .comand-persons-name__describe */
+  /* .comand-persons-name__links */
+}
+.comand-persons-name._sub-menuImage-active .comand-persons-name__describe,
+.comand-persons-name._sub-menuImage-active .comand-persons-name__links {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  height: auto;
+}
+.comand-persons-name__letter {
+  font-size: clamp( 2.5rem , 2rem  +  2.5vw , 5rem );
+  color: #afafaf;
+  font-weight: 300;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.comand-persons-name__letter:not(:last-child) {
+  margin-bottom: 0.9375rem;
+}
+.comand-persons-name__name {
+  font-family: "Tsukimi Rounded";
+  font-weight: 300;
+  font-size: clamp( 1.0625rem , 1.025rem  +  0.1875vw , 1.25rem );
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.comand-persons-name__profesy {
+  font-weight: 300;
+  font-size: clamp( 1.0625rem , 1rem  +  0.3125vw , 1.375rem );
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.comand-persons-name__profesy:not(:last-child) {
+  margin-bottom: 0.3125rem;
+}
+.comand-persons-name__describe {
+  color: #7a7a7a;
+  font-size: clamp( 1rem , 0.9875rem  +  0.0625vw , 1.0625rem );
+  font-weight: 300;
+}
+.comand-persons-name__describe:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
+.comand-persons-name__links, .comand-persons-name__describe {
+  opacity: 0;
+  -webkit-transform: translateY(6.25rem);
+          transform: translateY(6.25rem);
+  -webkit-transition: opacity 0s, -webkit-transform 0.6s ease 0s;
+  transition: opacity 0s, -webkit-transform 0.6s ease 0s;
+  transition: transform 0.6s ease 0s, opacity 0s;
+  transition: transform 0.6s ease 0s, opacity 0s, -webkit-transform 0.6s ease 0s;
+  height: 0;
+}
+.comand-persons-name__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 0.4375rem;
+     -moz-column-gap: 0.4375rem;
+          column-gap: 0.4375rem;
+}
+.comand-persons-name__links img {
+  -webkit-filter: grayscale(0.8);
+          filter: grayscale(0.8);
+  max-height: 2.8125rem;
+  max-width: 1.875rem;
+}
+
+.comand-lets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: clamp( 1.25rem , 1.125rem  +  0.625vw , 1.875rem );
+  background-color: #F7F7F7;
+  /* .comand-lets__title */
+  /* .comand-lets__describe */
+}
+.comand-lets__title {
+  color: #353333;
+  font-size: clamp( 1.375rem , 1.15rem  +  1.125vw , 2.5rem );
+  font-weight: 300;
+  font-family: "Tsukimi Rounded";
+}
+.comand-lets__title:not(:last-child) {
+  margin-bottom: 0.9375rem;
+}
+.comand-lets__describe {
+  max-width: 53.125rem;
+  font-size: clamp( 1.0625rem , 1.025rem  +  0.1875vw , 1.25rem );
+  color: #616161;
+  font-weight: 300;
+}
+.comand-lets__describe:not(:last-child) {
+  margin-bottom: clamp( 0.9375rem , 0.8125rem  +  0.625vw , 1.5625rem );
+}
+@media (any-hover: hover) {
+  .comand-lets__button:hover a {
+    border-color: black;
+    color: black;
+  }
+}

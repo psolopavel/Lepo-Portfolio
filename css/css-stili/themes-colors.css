@@ -1,0 +1,86 @@
+body[theme-name=standart] {
+  background-color: #E8EBF6;
+}
+body[theme-name=standart] main,
+body[theme-name=standart] .wrapper,
+body[theme-name=standart] .portfolio-menu__item a,
+body[theme-name=standart] .main-home-slider__navigation {
+  background-color: #E8EBF6;
+}
+body[theme-name=standart] .sitebar {
+  background-color: #F9FAFF;
+}
+body[theme-name=standart] .header {
+  background-color: #F9FAFF;
+}
+body[theme-name=orange] {
+  background-color: #e7e1e1;
+}
+body[theme-name=orange] main,
+body[theme-name=orange] .wrapper,
+body[theme-name=orange] .portfolio-menu__item a,
+body[theme-name=orange] .main-home-slider__navigation {
+  background-color: #e7e1e1;
+}
+body[theme-name=orange] .sitebar {
+  background-color: #e9dddd;
+}
+body[theme-name=orange] .header {
+  background-color: #e9dddd;
+}
+body[theme-name=orange] .sitebar-content__name-person div::before {
+  color: #824a4a;
+}
+body[theme-name=orange] .sitebar-content__name-person div::after {
+  background-color: #824a4a;
+}
+body[theme-name=orange] .sitebar-content__name-person {
+  color: #663535;
+}
+body[theme-name=orange] .sitebar-content__menu-link._active a {
+  color: #512020;
+}
+body[theme-name=orange] .sitebar-content__footer-link,
+body[theme-name=orange] .header-icons__icon {
+  border-color: #e07676;
+  background-color: #ffe1e1;
+}
+body[theme-name=orange] .sitebar-content__footer-link img,
+body[theme-name=orange] .header-icons__icon img {
+  -webkit-filter: hue-rotate(114deg);
+          filter: hue-rotate(114deg);
+}
+body[theme-name=white] {
+  background-color: white;
+}
+body[theme-name=white] main,
+body[theme-name=white] .wrapper,
+body[theme-name=white] .portfolio-menu__item a,
+body[theme-name=white] .main-home-slider__navigation {
+  background-color: white;
+}
+body[theme-name=white] .sitebar {
+  background-color: #f9f9f9;
+}
+body[theme-name=white] .header {
+  background-color: #f9f9f9;
+}
+body[theme-name=white] .settings__icon > div {
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+body[theme-name=gray] {
+  background-color: rgb(220, 220, 220);
+}
+body[theme-name=gray] main,
+body[theme-name=gray] .wrapper,
+body[theme-name=gray] .portfolio-menu__item a,
+body[theme-name=gray] .main-home-slider__navigation {
+  background-color: rgb(220, 220, 220);
+}
+body[theme-name=gray] .sitebar {
+  background-color: rgb(235, 235, 235);
+}
+body[theme-name=gray] .header {
+  background-color: rgb(235, 235, 235);
+}

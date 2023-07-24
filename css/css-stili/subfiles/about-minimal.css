@@ -1,0 +1,73 @@
+/* % TO */
+/* % REM */
+/* % EM */
+body._header .main {
+  min-height: 100vh;
+  margin-top: clamp( 1.875rem , 1.8rem  +  0.375vw , 2.25rem );
+}
+body._header .main .about-video__content {
+  min-height: 100vh;
+}
+
+.about-minemal {
+  /* .about-video__content */
+  /* .about-video__image */
+  /* .about-video__text */
+  /* .about-video__title */
+  /* .about-video__describe */
+}
+.about-minemal__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+.about-minemal__image {
+  width: 100%;
+  min-height: 75vh;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.about-minemal__text {
+  background-color: #F7F7F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding-left: clamp( 0.4375rem , 0.275rem  +  0.8125vw , 1.25rem );
+  padding-right: clamp( 0.4375rem , 0.275rem  +  0.8125vw , 1.25rem );
+  padding-bottom: clamp( 1.875rem , 1.625rem  +  1.25vw , 3.125rem );
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+.about-minemal__title {
+  font-family: "Tsukimi Rounded";
+  font-size: clamp( 1.5625rem , 1.3375rem  +  1.125vw , 2.6875rem );
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 0.625rem;
+}
+.about-minemal__title:not(:last-child) {
+  margin-bottom: clamp( 1.25rem , 1.0625rem  +  0.9375vw , 2.1875rem );
+}
+.about-minemal__describe {
+  font-size: clamp( 1.0625rem , 1.025rem  +  0.1875vw , 1.25rem );
+  color: #555555;
+  font-weight: 300;
+  line-height: 1.6;
+}

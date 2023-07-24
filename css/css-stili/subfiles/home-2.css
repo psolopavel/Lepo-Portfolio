@@ -1,0 +1,364 @@
+/* % TO */
+/* % REM */
+/* % EM */
+.main {
+  background-image: url("../../../img/content/subfiles/home-video/bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+body._header .home2__main {
+  overflow: auto !important;
+  margin-top: 0 !important;
+  padding-top: 4.375rem;
+}
+body.dark_theme .home-2-slide__number {
+  background-color: #121217;
+}
+body.dark_theme main,
+body.dark_theme .home-2-slide__number,
+body.dark_theme .settings__icon {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.main-home-2 {
+  /* .main-home-2__block */
+  /* .main-home-2__image */
+  /* .main-home-2__block-content */
+}
+.main-home-2__block {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0.625rem;
+  background-color: white;
+  overflow: hidden;
+  -webkit-box-shadow: 0px 0px 3.125rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 3.125rem rgba(0, 0, 0, 0.2);
+}
+.main-home-2__block:not(:last-child) {
+  margin-bottom: clamp( 1.875rem , 1.75rem  +  0.625vw , 2.5rem );
+}
+@media (max-width: 37.5rem) {
+  .main-home-2__block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-home-2__block .main-home-2__image {
+    min-height: 50vh;
+    width: 100%;
+  }
+}
+.main-home-2__slider {
+  width: 100%;
+  position: absolute !important;
+  padding-bottom: 1.875rem !important;
+}
+.main-home-2__image {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  position: relative;
+  padding-bottom: 45%;
+  overflow: hidden;
+  height: 100%;
+}
+@media (any-hover: hover) {
+  .main-home-2__image:hover img {
+    -webkit-transform: scale(1.015);
+            transform: scale(1.015);
+  }
+}
+.main-home-2__image img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.main-home-2__block-content {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  padding: clamp( 1.25rem , 1.125rem  +  0.625vw , 1.875rem );
+}
+.main-home-2__slider-conteiner {
+  width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  position: relative;
+}
+
+.home-2-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* .home-2-content__title */
+  /* .home-2-content__decribe */
+  /* .home-2-content__portfolio */
+}
+.home-2-content__title {
+  font-size: clamp( 1.25rem , 1.05rem  +  1vw , 2.25rem );
+  color: #666565;
+  font-weight: 300;
+}
+.home-2-content__title:not(:last-child) {
+  margin-bottom: clamp( 0.9375rem , 0.8125rem  +  0.625vw , 1.5625rem );
+}
+.home-2-content__decribe {
+  color: #373737;
+  font-size: clamp( 0.9375rem , 0.85rem  +  0.4375vw , 1.375rem );
+  font-family: "Tsukimi Rounded";
+}
+.home-2-content__text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.home-2-content__text:not(:last-child) {
+  margin-bottom: 1.875rem;
+}
+.home-2-content__portfolio:not(:last-child) {
+  margin-bottom: 0.625rem;
+}
+.home-2-content__portfolio a {
+  color: #7b7b7b;
+  font-family: "Tsukimi Rounded";
+  position: relative;
+}
+@media (any-hover: hover) {
+  .home-2-content__portfolio a:hover {
+    color: #6e6e6e;
+  }
+  .home-2-content__portfolio a:hover::after {
+    width: 100%;
+    background-color: #6e6e6e;
+  }
+}
+.home-2-content__portfolio a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #adadad;
+  width: 30%;
+  height: 1px;
+}
+
+.home-2-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100% !important;
+  background-color: white;
+  border-radius: 0.9375rem;
+  overflow: hidden;
+  /* .home-2-slide__number */
+  /* .home-2-slide__title */
+  /* .home-2-slide__describe */
+  /* .home-2-slide__href */
+}
+.home-2-slide__content {
+  padding: clamp( 0.9375rem , 0.875rem  +  0.3125vw , 1.25rem );
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 90%;
+          flex: 1 0 90%;
+}
+.home-2-slide__number {
+  background-color: rgb(36, 36, 36);
+  color: rgb(229, 229, 229);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: clamp( 0.625rem , 0.5rem  +  0.625vw , 1.25rem );
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 10%;
+          flex: 1 0 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: "Tsukimi Rounded";
+  font-size: clamp( 1.875rem , 1.6875rem  +  0.9375vw , 2.8125rem );
+  font-weight: 300;
+}
+@media (max-width: 28.125rem) {
+  .home-2-slide__number {
+    display: none;
+  }
+}
+@media (max-width: 43.75rem) {
+  .home-2-slide__content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 80%;
+            flex: 1 0 80%;
+  }
+  .home-2-slide__number {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 20%;
+            flex: 0 1 20%;
+  }
+}
+.home-2-slide__title {
+  color: rgb(36, 36, 36);
+  font-size: clamp( 1.03125rem , 0.9375rem  +  0.46875vw , 1.5rem );
+}
+.home-2-slide__title span {
+  color: #525252;
+  font-weight: 300;
+}
+.home-2-slide__title:not(:last-child) {
+  margin-bottom: clamp( 0.3125rem , 0.25rem  +  0.3125vw , 0.625rem );
+}
+.home-2-slide__describe {
+  font-weight: 300;
+  color: #3F3F3F;
+  font-size: clamp( 0.9375rem , 0.9rem  +  0.1875vw , 1.125rem );
+  margin-bottom: 0.125rem;
+}
+.home-2-slide__href {
+  color: #797878;
+  font-size: clamp( 0.9375rem , 0.9125rem  +  0.125vw , 1.0625rem );
+  font-family: "Tsukimi Rounded";
+  position: relative;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  float: right;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.home-2-slide__href::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #908f8f;
+  width: 30%;
+  height: 1px;
+  transition: all 0.3s ease 0s;
+}
+@media (any-hover: hover) {
+  .home-2-slide__href:hover {
+    color: #555454;
+  }
+  .home-2-slide__href:hover::after {
+    width: 100%;
+  }
+}
+
+.home-2-buttons {
+  margin-top: clamp( 1.5625rem , 1.375rem  +  0.9375vw , 2.5rem );
+  margin-left: 0.3125rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* .home-2-buttons__buttons */
+}
+.home-2-buttons__buttons .main-home-video__icons {
+  position: inherit;
+}
+.home-2-buttons__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: clamp( 0.625rem , 0.5625rem  +  0.3125vw , 0.9375rem );
+  z-index: 1;
+  width: 100%;
+}
+.home-2-buttons__navigation > div {
+  background-color: white;
+  width: clamp( 2.1875rem , 2.125rem  +  0.3125vw , 2.5rem );
+  height: clamp( 2.1875rem , 2.125rem  +  0.3125vw , 2.5rem );
+  border-radius: 0.3125rem;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.home-2-buttons__navigation > div::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 0.5rem;
+  background-image: url("../../../img/content/subfiles/home-slider/arrow.svg");
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.home-2-buttons__navigation > div:nth-child(2)::before {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+@media (any-hover: hover) {
+  .home-2-buttons__navigation > div:hover {
+    background-color: rgb(31, 31, 31);
+  }
+  .home-2-buttons__navigation > div:hover::before {
+    -webkit-filter: invert(1);
+            filter: invert(1);
+  }
+}

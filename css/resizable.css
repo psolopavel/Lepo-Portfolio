@@ -1,0 +1,34 @@
+.resizable {
+   position: relative
+}
+
+.resizable .resizable-handle {
+   position: absolute;
+   -moz-user-select: none;
+   -webkit-user-select: none;
+   -ms-user-select: none
+}
+
+.resizable .resizable-r {
+   height: calc(100% - 10px);
+   top: 5px;
+   width: 15px;
+   right: 0;
+}
+
+.resizable .resizable-r::before {
+   content: '';
+   position: absolute;
+   right: 2px;
+   top: 55%;
+   transform: translateY(-50%);
+   height: 50%;
+   width: 2px;
+   background-color: rgb(228, 228, 228);
+}
+
+.resizable-t,
+.resizable-b,
+.resizable-l {
+   display: none;
+}

@@ -1,0 +1,148 @@
+/* % TO */
+/* % REM */
+/* % EM */
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  /* .services__text */
+  /* .services__title */
+  /* .services__describe */
+  /* .services__items */
+  /* .services__item */
+}
+.services__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  row-gap: clamp( 0.625rem , 0.5625rem  +  0.3125vw , 0.9375rem );
+  text-align: center;
+  max-width: 43.75rem;
+  margin: 0 auto;
+}
+.services__text:not(:last-child) {
+  margin-bottom: clamp( 1.875rem , 1.5rem  +  1.875vw , 3.75rem );
+}
+.services__title {
+  font-size: clamp( 2.1875rem , 1.9375rem  +  1.25vw , 3.4375rem );
+  font-family: "Tsukimi Rounded";
+  font-weight: 400;
+  color: #4d45a3;
+}
+.services__title:not(:last-child) {
+  margin-bottom: 0.3125rem;
+}
+.services__describe {
+  color: #141148;
+  font-size: clamp( 0.9375rem , 0.875rem  +  0.3125vw , 1.25rem );
+  font-weight: 400;
+}
+.services__items {
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.125rem, 1fr));
+  gap: clamp( 0.625rem , 0.5rem  +  0.625vw , 1.25rem );
+}
+.services__items:not(:last-child) {
+  margin-bottom: clamp( 1.25rem , 1.125rem  +  0.625vw , 1.875rem );
+}
+@media (max-width: 25rem) {
+  .services__items {
+    grid-template-columns: repeat(auto-fit, minmax(13.75rem, 1fr));
+  }
+}
+.services__item {
+  padding: clamp( 1.25rem , 1.125rem  +  0.625vw , 1.875rem );
+}
+
+.services-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: clamp( 12.5rem , 11.875rem  +  3.125vw , 15.625rem );
+  border-radius: 0.8125rem;
+  overflow: hidden;
+  border: 3px solid #8985d6;
+  /* .services-item__name */
+}
+.services-item::after {
+  content: "see more";
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+@media (any-hover: hover) {
+  .services-item:hover img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .services-item:hover::after {
+    height: 100%;
+    opacity: 1;
+  }
+}
+.services-item__name, .services-item__describe {
+  color: white;
+  mix-blend-mode: difference;
+}
+.services-item__name {
+  font-size: clamp( 1.5rem , 1.3rem  +  1vw , 2.5rem );
+}
+.services-item__name:not(:last-child) {
+  margin-bottom: clamp( 0.9375rem , 0.8125rem  +  0.625vw , 1.5625rem );
+}
+.services-item img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: brightness(0.4);
+          filter: brightness(0.4);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.services-item__describe {
+  font-size: clamp( 0.9375rem , 0.9rem  +  0.1875vw , 1.125rem );
+  font-family: "Tsukimi Rounded";
+  font-weight: 600;
+}
